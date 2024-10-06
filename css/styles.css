@@ -13,3 +13,9 @@ font-optical-sizing: auto;
 font-weight: 40;
 font-style: normal;
 }
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+}
