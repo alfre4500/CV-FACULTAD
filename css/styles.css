@@ -21,8 +21,6 @@ font-weight: 40;
 font-style: normal;
 }
 
-nav{
-    position: sticky;
-    top: 0;
-    background-color: aqua;
+body {
+    margin-top: 70px;
 }
