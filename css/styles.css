@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
+}
+body{
+    background: rgb(202,157,102);
+    background: linear-gradient(0deg, rgba(202,157,102,1) 0%, rgba(3,1,6,1) 79%);
+    color: white;
 }
 
 nav{
@@ -12,8 +18,9 @@ nav{
     gap: 1rem;
 }
 a{
+    padding-top: 10px;
     text-decoration: none;
-    color: black;
+    color:white;
     font-size: 20px;
 }
 .perfil1{
@@ -38,10 +45,38 @@ a{
     font-size: 20px;
 }
 section{
-    border: 1px solid red;
+  
 width: 100%;
 }
 h2{
     text-align: center;
     padding: 20px;
 }
+/*enlaces*/
+/* From Uiverse.io by biswacpcode */ 
+button {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  button::before {
+    margin-left: auto;
+  }
+  
+  button::after, button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  button:hover::after, button:hover::before {
+    width: 100%;
+  }
