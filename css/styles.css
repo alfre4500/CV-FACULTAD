@@ -16,11 +16,16 @@ a{
     color: black;
     font-size: 20px;
 }
+.perfil1{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .perfil{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .foto{
     border-radius: 600px;
