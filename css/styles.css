@@ -1,85 +1,95 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    scrollbar-color: #ca9d66  #030106;
-    scrollbar-width:auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scrollbar-color: #ca9d66  #030106;
+  scrollbar-width:auto;
 }
 body{
-    background:#030106;
-    color: white;
+  background:#030106;
+  color: white;
 }
 
 nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 a{
-    padding-top: 10px;
-    text-decoration: none;
-    color:white;
-    font-size: 20px;
+  padding-top: 10px;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
 }
 .perfil1{
-    height: 120vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .perfil{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .foto{
-    border-radius: 600px;
-    padding: 20px;
-    padding-left: 30px;
-    height: 400px;
+  border-radius: 600px;
+  padding: 20px;
+  padding-left: 30px;
+  height: 400px;
 }
 .ptexto{
-    padding: 40px;
-    font-size: 20px;
+  padding: 40px;
+  font-size: 20px;
 }
 section{
-  
+
 width: 100%;
 }
 h2{
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 /*enlaces*/
 /* From Uiverse.io by biswacpcode */ 
 button {
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    border: none;
-    background: none;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  button::before {
-    margin-left: auto;
-  }
-  
-  button::after, button::before {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    transition: 0.5s;
-  }
-  
-  button:hover::after, button:hover::before {
-    width: 100%;
-  }
-  #estudios p {
-   
-  }
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+button::before {
+  margin-left: auto;
+}
+
+button::after, button::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+button:hover::after, button:hover::before {
+  width: 100%;
+}
+#estudios p {
+ font-size: 35px;
+ text-align: center;
+}
+#experiencia{
+  padding: 20px;
+}
+.tarjetero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
