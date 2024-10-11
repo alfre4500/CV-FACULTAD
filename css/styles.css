@@ -122,3 +122,7 @@ button:hover::after, button:hover::before {
     transform:translateX(calc(-100px*7));
   }
 }
+.formulario{
+  padding-left: 100px;
+  
+}
