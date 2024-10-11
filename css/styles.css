@@ -93,3 +93,32 @@ button:hover::after, button:hover::before {
   align-items: center;
   gap: 1.5rem;
 }
+/*tecnologias*/
+.slider{
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+.slider .slide-track{
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation:scroll 40s linear infinite ;
+  width: calc(100px * 14);
+}
+.slider .slide{
+  width: 100px;
+}
+.slider  .slide img {
+  width: 100px;
+}
+@keyframes scroll{
+  0% {
+    -webkit-animation:translateX(0);
+    transform:translateX(0);
+  }
+  100%{
+    -webkit-animation:translateX(calc(-100px*7));
+    transform:translateX(calc(-100px*7));
+  }
+}
