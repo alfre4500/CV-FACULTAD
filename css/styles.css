@@ -126,3 +126,39 @@ button:hover::after, button:hover::before {
   padding-left: 100px;
   
 }
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.social-links {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff6347; /* Cambia a un color de tu preferencia */
+}
+
+.footer-info {
+  font-size: 14px;
+}
+
+.footer-info p {
+  margin: 0;
+}
